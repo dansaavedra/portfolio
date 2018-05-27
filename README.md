@@ -1,6 +1,6 @@
 # Portfolio - An Introduction
 
-[[https://github.com/dansaavedra/portfolio.github.io/blob/master/IMG_0922.JPG|alt=octocat]]
+[[https://github.com/dansaavedra/portfolio.github.io/blob/master/IMG_0922.JPG]]
 
 This one pager is intended to be a live representation of current and past projects and personal developments. Updates are intended to be at least monthly, emphasis on "intended"
 
