@@ -1,10 +1,13 @@
 # Portfolio - An Introduction
 
+[[https://github.com/dansaavedra/portfolio.github.io/blob/master/IMG_0922.JPG|alt=octocat]]
+
 This one pager is intended to be a live representation of current and past projects and personal developments. Updates are intended to be at least monthly, emphasis on "intended"
 
 ## The Breakdown
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+
 
 ### About
 
