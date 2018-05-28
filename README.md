@@ -6,38 +6,23 @@ This one pager is intended to be a live representation of current and past proje
 
 ## The Breakdown
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
+The portfolio's sections.
 
 ### About
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+Some general information about me that'll help you understand the gist of my attitudes and beliefs.
 
 ### Portfolio
 
-### Services
+A short list of some projects I've completed.
+
+### Skills
+
+Quick list of techical skills I've been building either professionally or personally over the last 5-10 years.
 
 ### Contact
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Contact info if you have any feedback or just want to reach out.
 
 ## Built With
 
@@ -48,16 +33,6 @@ End with an example of getting some data out of the system or using it for a lit
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
