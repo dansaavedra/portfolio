@@ -32,11 +32,12 @@
   .jumbotron {
       background-color: #f4511e;
       color: #fff;
-      padding: 25px 25px;
+      padding:25px 25px 0px 25px;
       font-family: Montserrat, sans-serif;
+      margin-bottom:10px;
   }
   .container-fluid {
-      padding: 60px 50px;
+      padding: 10px 50px;
   }
   .bg-grey {
       background-color: #f6f6f6;
@@ -152,6 +153,19 @@
       -webkit-animation-duration: 1s;
       visibility: visible;
   }
+  .logo-pic {
+    width:60px;
+    height:80px;
+    border-radius:50%;
+    image-orientation: 90deg;
+  }
+  .img-responsive2 {
+      justify-content:right;
+    }
+    .row {
+      padding:0px;
+      margin:0px;
+    }
   @keyframes slide {
     0% {
       opacity: 0;
@@ -181,10 +195,16 @@
         width: 100%;
         margin-bottom: 35px;
     }
+    .img-responsive2 {
+      justify-content:center;
+    }
   }
   @media screen and (max-width: 480px) {
     .logo {
         font-size: 150px;
+    }
+    .img-responsive2 {
+      justify-content:center;
     }
   }
   </style>
@@ -198,7 +218,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
-      </button><a class="navbar-brand" href="#myPage"><img src="https://github.com/dansaavedra/portfolio.github.io/blob/master/IMG_0922.jpg?raw=true"></a>
+      </button><a class="navbar-brand" href="#myPage"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
@@ -211,18 +231,26 @@
   </div>
 </nav>
 
+
 <div class="jumbotron text-center">
-  <h1>Dan Saavedra</h1> 
-  <p>Welcome to my portofolio</p> 
+  <div class="row align-items-center">
+  <div class="col-lg-3 col-md-3 col-sm-3 container-fluid img-responsive2" style="display:flex; align-items:center; padding:30px 0px 0px 0px">
+    <img class="logo-pic" src="http://i65.tinypic.com/tasdo9.jpg">
+  </div>
+  <div class="col-lg-6 col-md-6 col-sm-6">
+    <h1>Hey, My Name is Dan</h1> 
+    <p>Welcome to my portofolio</p> 
+  </div>
+  </div>
 </div>
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
   <div class="row">
     <div class="col-sm-8">
-      <h2>A Brief Introduction</h2><br>
-      <h4>A problem solver, critical thinker, and go-getter.</h4><br>
-      <p>I like to quickly analyze a situation, realize the objectives, obstacles, and stages, and then make a quick plan to get to the objectives.</p>
+      <h2>About Me - A Brief Introduction</h2><br>
+      <h4>Always learning, solving problems, and trying to find all of the perspectives of a given topic.</h4><br>
+      <p>I like to quickly analyze a situation, realize the objectives, obstacles, and stages, and then make a quick plan to get to the objectives. Thinking as deep and as fast as possible to get efficient and effective results.</p>
       <br><button class="btn btn-default btn-lg">Get in Touch</button>
     </div>
     <div class="col-sm-4">
