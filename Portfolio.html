@@ -30,7 +30,7 @@
       margin-bottom: 30px;
   }  
   .jumbotron {
-      background-color: #f4511e;
+      background-color: black;
       color: #fff;
       padding:25px 25px 0px 25px;
       font-family: Montserrat, sans-serif;
@@ -43,32 +43,31 @@
       background-color: #f6f6f6;
   }
   .logo-small {
-      color: #f4511e;
+      color: black;
       font-size: 50px;
   }
   .logo {
-      color: #f4511e;
+      color: black;
       font-size: 200px;
   }
   .thumbnail {
-      padding: 0 0 15px 0;
+      padding: 0 5px 15px 5px;
       border: none;
       border-radius: 0;
   }
   .thumbnail img {
-      width: 100%;
-      height: 100%;
+      width: 60%;
       margin-bottom: 10px;
   }
   .carousel-control.right, .carousel-control.left {
       background-image: none;
-      color: #f4511e;
+      color: black;
   }
   .carousel-indicators li {
-      border-color: #f4511e;
+      border-color: black;
   }
   .carousel-indicators li.active {
-      background-color: #f4511e;
+      background-color: black;
   }
   .item h4 {
       font-size: 19px;
@@ -81,7 +80,7 @@
       font-style: normal;
   }
   .panel {
-      border: 1px solid #f4511e; 
+      border: 1px solid black; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
@@ -89,13 +88,13 @@
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-      border: 1px solid #f4511e;
+      border: 1px solid black;
       background-color: #fff !important;
-      color: #f4511e;
+      color:black;
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #f4511e !important;
+      background-color: black !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -115,12 +114,12 @@
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: #f4511e;
+      background-color:black;
       color: #fff;
   }
   .navbar {
       margin-bottom: 0;
-      background-color: #f4511e;
+      background-color:black;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -133,7 +132,7 @@
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #f4511e !important;
+      color:black !important;
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -143,7 +142,7 @@
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #f4511e;
+      color: black;
   }
   .slideanim {visibility:hidden;}
   .slide {
@@ -154,10 +153,10 @@
       visibility: visible;
   }
   .logo-pic {
-    width:60px;
-    height:80px;
-    border-radius:50%;
-    image-orientation: 90deg;
+    float: right;
+    margin-bottom:10px;
+    image-orientation:90deg;
+    -webkit-transform: rotate(90deg);
   }
   .img-responsive2 {
       justify-content:right;
@@ -166,6 +165,10 @@
       padding:0px;
       margin:0px;
     }
+.skillssizing {
+  min-width:125px;
+  width:30%;
+}
 
   @keyframes slide {
     0% {
@@ -236,46 +239,56 @@
 <div class="jumbotron text-center">
   <div class="row align-items-center">
   <div class="col-lg-3 col-md-3 col-sm-3 container-fluid img-responsive2" style="display:flex; align-items:center; padding:30px 0px 0px 0px">
-    <img class="logo-pic" src="http://i65.tinypic.com/tasdo9.jpg">
   </div>
   <div class="col-lg-6 col-md-6 col-sm-6">
-    <h1 style="color:white; font-size:45px">Hey, My Name is Dan</h1> 
-    <p>Welcome to my portofolio</p> 
+    <h1 style="color:white; font-size:45px">Hey, My Name is Dan.</h1> 
+    <p>Welcome to my portfolio.</p> 
   </div>
   </div>
 </div>
 
 <!-- Container (About Section) -->
 <div id="about" class="container-fluid">
-  <div class="row">
-    <div class="col-sm-8">
-      <h2>About Me - A Brief Introduction</h2><br>
+  <div class="row" style="margin-bottom:10px">
+    <div class="col-sm-3">
+      <h1 style="text-align:right; margin-top:0px">About Me</h1>
+      <h2 style="text-align:right; margin-top:20px">A Brief Introduction</h2>
+    </div>
+    <div class="col-sm-7">
+      <div style="margin-left:5%">
       <h4>Always learning, solving problems, and trying to find all of the perspectives of a given topic.</h4><br>
       <p>I like to quickly analyze a situation, realize the objectives, obstacles, and stages, and then make a quick plan to get to the objectives. Thinking as deep and as fast as possible to get efficient and effective results.</p>
-      <br><button class="btn btn-default btn-lg">Get in Touch</button>
+      </div>
     </div>
-    <div class="col-sm-4 img-responsive2 d-flex justify-content-center" style="height:100%">
-      <span></span>
-    </div>
+   <!-- <div class="col-sm-2"><img src="http://i65.tinypic.com/tasdo9.jpg" class=" rounded logo-pic float-right"></div> -->
   </div>
 </div>
 
 <div class="container-fluid bg-grey">
   <div class="row">
-    <div class="col-sm-4">
+    <div class="col-sm-1">
       <span></span>
     </div>
-    <div class="col-sm-8">
-      <h2>My Interests</h2><br>
+    <div class="col-sm-7">
+      <h1>My Interests</h1>
       <h4>The spread of my interests follow my general strive for balance. These interests rest in areas of both mind and body, and inevitably most engage both simultaneously.</h4><br>
-      <p><strong>VISION:</strong> Filler</p>
+    </div>
+    <div class="col-sm-4" style="vertical-align:middle">
+      <ul class="list-group" style="margin-top:20px">
+        <li class="list-group-item">Philosophy</li>
+        <li class="list-group-item">Yoga</li>
+        <li class="list-group-item">Muay Thai</li>
+        <li class="list-group-item">Reading</li>
+        <li class="list-group-item">Data Analytics</li>
+        <li class="list-group-item">Building Things (Anything!)</li>
+      </ul>
     </div>
   </div>
 </div>
 
 <!-- Container (Skills Section) -->
 <div id="skills" class="container-fluid text-center">
-  <h2>Skills</h2>
+  <h1>Skills</h1>
   <h4>What talents I can offer</h4>
   <br>
   <div class="row slideanim">
@@ -285,7 +298,7 @@
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <span class="logo-small"><img src="https://careers.nintex.com/img/logo.png" class="skillssizing glyphicon" style="padding-right:10px"><img src="https://d1.awsstatic.com/logos/customers/alteryx-logo-blue.4f4a396c1ea19b53cba46d94a4f042820e59358c.png" class="skillssizing glyphicon" style="padding-left:10px"></span>
       <h4>Nintex & Alteryx</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
@@ -308,8 +321,8 @@
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
     <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">HARD WORK</h4>
+      <span class="logo-small"><img src="data:image/png;base64,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" class="glyphicon skillssizing"></span>
+      <h4 style="color:#303030;">Adobe Creative Suite</h4>
       <p>Lorem ipsum dolor sit amet..</p>
     </div>
   </div>
@@ -317,28 +330,28 @@
 
 <!-- Container (Portfolio Section) -->
 <div id="portfolio" class="container-fluid text-center bg-grey">
-  <h2>Portfolio</h2><br>
-  <h4>What we have created</h4>
+  <h1>Portfolio</h1><br>
+  <h4>What I've created</h4>
   <div class="row text-center slideanim">
     <div class="col-sm-4">
       <div class="thumbnail">
+        <img src="https://static.wixstatic.com/media/0c6d2c_31cb0a926c0e4cbea72fb56917f18ec8~mv2.png/v1/fill/w_183,h_44,al_c,usm_0.66_1.00_0.01/0c6d2c_31cb0a926c0e4cbea72fb56917f18ec8~mv2.png">
+        <p>A personal blog and collection of various creative endeavors.</p>
         <img src="paris.jpg" alt="Paris" width="400" height="300">
-        <p><strong>Paris</strong></p>
-        <p>Yes, we built Paris</p>
       </div>
     </div>
     <div class="col-sm-4">
       <div class="thumbnail">
-        <img src="newyork.jpg" alt="New York" width="400" height="300">
-        <p><strong>New York</strong></p>
-        <p>We built New York</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <div class="thumbnail">
+        <img src="https://static.wixstatic.com/media/3a0820_e793d3231679478fb2eb840ac35f8036~mv2.png/v1/fill/w_387,h_77,al_c,usm_0.66_1.00_0.01/3a0820_e793d3231679478fb2eb840ac35f8036~mv2.png">
+        <p>Tutorials, blog posts, and more regarding SharePoint, Nintex, Alteryx, and Tableau.</p>
         <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
-        <p><strong>San Francisco</strong></p>
-        <p>Yes, San Fran is ours</p>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="thumbnail">
+        <p><strong>How Old is My Dog?</strong></p>
+        <p>An experimental project during my learning of Javascript</p>
+        <img src="sanfran.jpg" alt="San Francisco" width="400" height="300">
       </div>
     </div>
   </div><br>
@@ -380,12 +393,11 @@
 <!-- Container (Contact Section) -->
 <div id="contact" class="container-fluid bg-grey">
   <h2 class="text-center">CONTACT</h2>
-  <div class="row">
+  <div class="row text-center">
     <div class="col">
       <p>Want to reach me?</p>
       <p><span class="glyphicon glyphicon-map-marker"></span> Orlando, FL</p>
-      <p><span class="glyphicon glyphicon-envelope"></span> dsaavy16@gmail.com</p>
-      <a href="mailto:dsaavy16@gmail.com?subject=Reaching out from your portfolio site.&body=Your message goes here.">Click here to send me an email.</a>
+      <p><span class="glyphicon glyphicon-envelope"></span> <a href="mailto:dsaavy16@gmail.com?subject=Reaching out from your portfolio site.&body=Your message goes here.">dsaavy16@gmail.com</a></p>
     </div>
 
   </div>
